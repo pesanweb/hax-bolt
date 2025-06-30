@@ -1,12 +1,8 @@
 {
-  "name": "hax-single-site",
-  "version": "9.0.5",
-  "description": "",
+  "name": "haxtheweb",
+  "version": "11.0.0",
+  "description": "own course",
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com/elmsln/haxtheweb.git"
-  },
   "author": {
     "name": "btopro"
   },
@@ -16,9 +12,9 @@
     "access": "public"
   },
   "scripts": {
-    "start": "npm run dev",
-    "ghpages:build": "",
-    "dev": "npx @haxtheweb/haxcms-nodejs",
-    "dev-theme": "cd custom && npm start"
+    "start": "npm run serve",
+    "ghpages:build": "rm index.html && mv ghpages.html index.html && rm assets/babel* && rm build && rm wc-registry.json",
+    "serve": "npx @haxtheweb/haxcms-nodejs",
+    "dev": "NODE_ENV=development npm run serve"
   }
 }

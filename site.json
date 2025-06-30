@@ -5,7 +5,12 @@
   "description": "own course",
   "license": "by-sa",
   "metadata": {
-    "author": {},
+    "author": {
+      "image": "",
+      "name": null,
+      "email": null,
+      "socialLink": null
+    },
     "site": {
       "name": "haxtheweb",
       "logo": "assets/banner.jpg",
@@ -15,23 +20,26 @@
         "pathauto": false,
         "sw": false,
         "forceUpgrade": true,
-        "gaID": null
+        "gaID": null,
+        "private": false,
+        "canonical": true
       },
       "created": 1698074988,
-      "updated": 1723216821,
+      "updated": 1751303926,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
       },
-      "version": "9.0.5",
+      "version": "11.0.0",
       "static": {},
-      "tags": "website, haxtheweb, hax"
+      "tags": "website, haxtheweb, hax",
+      "domain": null
     },
     "theme": {
-      "element": "clean-one",
-      "path": "@lrnwebcomponents/clean-one/clean-one.js",
-      "name": "Clean course theme",
-      "thumbnail": "build/es6/node_modules/@lrnwebcomponents/app-hax/lib/assets/images/BlueStyle.svg",
+      "element": "journey-theme",
+      "path": "@haxtheweb/journey-theme/journey-theme.js",
+      "name": "Journey theme",
+      "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
       "variables": {
         "image": "",
         "imageAlt": "",
