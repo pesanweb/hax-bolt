@@ -80,6 +80,22 @@
         "images": {},
         "status": ""
       }
+    },
+    {
+      "id": "item-1f26ba62-4db4-4c26-b35b-d1a07fd5cac9",
+      "indent": 0,
+      "location": "pages/item-1f26ba62-4db4-4c26-b35b-d1a07fd5cac9/index.html",
+      "slug": "welcome-copy",
+      "order": 1,
+      "parent": null,
+      "title": "Welcome Copy",
+      "description": "",
+      "metadata": {
+        "created": 1751304004,
+        "updated": 1751304004,
+        "images": [],
+        "videos": []
+      }
     }
   ]
 }
