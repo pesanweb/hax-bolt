@@ -1,8 +1,8 @@
 {
   "id": "96b450bb-86de-49a3-b06f-54d9778444cf",
-  "title": "hax-single-site",
+  "title": "Voice AI Writer",
   "author": "",
-  "description": "own course",
+  "description": "Transform your speech into polished, publication-ready content with real-time AI enhancement",
   "license": "by-sa",
   "metadata": {
     "author": {
@@ -12,7 +12,7 @@
       "socialLink": null
     },
     "site": {
-      "name": "haxtheweb",
+      "name": "Voice AI Writer",
       "logo": "assets/banner.jpg",
       "settings": {
         "lang": "en-US",
@@ -32,21 +32,21 @@
       },
       "version": "11.0.0",
       "static": {},
-      "tags": "website, haxtheweb, hax",
+      "tags": "voice ai, writing, speech to text, ai enhancement",
       "domain": null
     },
     "theme": {
-      "element": "journey-theme",
-      "path": "@haxtheweb/journey-theme/journey-theme.js",
-      "name": "Journey theme",
+      "element": "custom-voice-ai-theme",
+      "path": "theme/theme.html",
+      "name": "Voice AI Writer Theme",
       "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
       "variables": {
         "image": "",
         "imageAlt": "",
         "imageLink": "",
-        "hexCode": "#aeff00",
-        "cssVariable": "--simple-colors-default-theme-deep-purple-7",
-        "icon": "hax:wizard-hat"
+        "hexCode": "#6366f1",
+        "cssVariable": "--primary-color",
+        "icon": "hax:microphone"
       },
       "regions": {}
     },
@@ -67,8 +67,8 @@
       "slug": "welcome",
       "order": 0,
       "parent": null,
-      "title": "Welcome",
-      "description": "Welcome to your new HAX site! Click edit on the top bar to get started\nThis is a boilerplate so that you can add and make new things from the npx @haxtheweb/haxcms-nodejscommand\nWhat can I do?\nWe've ",
+      "title": "Welcome to Voice AI Writer",
+      "description": "Transform your speech into polished, publication-ready content with real-time AI enhancement. Speak naturally, write professionally.",
       "metadata": {
         "created": 1689962391,
         "updated": 1723216821,
@@ -85,11 +85,11 @@
       "id": "item-1f26ba62-4db4-4c26-b35b-d1a07fd5cac9",
       "indent": 0,
       "location": "pages/item-1f26ba62-4db4-4c26-b35b-d1a07fd5cac9/index.html",
-      "slug": "welcome-copy",
+      "slug": "getting-started",
       "order": 1,
       "parent": null,
-      "title": "Welcome Copy",
-      "description": "",
+      "title": "Getting Started",
+      "description": "Learn how to use Voice AI Writer to transform your speech into professional content",
       "metadata": {
         "created": 1751304004,
         "updated": 1751304004,

@@ -1,46 +1,130 @@
 <!--
-  Edit this file and do whatever you want to it.
-  This is intended to be a starting point that you can fork and do whatever
-  you want with it
+  Voice AI Writer Theme - Custom HAXcms Theme
+  Modern, clean interface inspired by voice AI writing tools
 -->
-<site-top-menu noink indicator="arrow" arrow-size="8">
-  <site-title slot="prefix" class="spacing"></site-title>
-</site-top-menu>
+
+<!-- Header Section -->
+<div class="header">
+  <div class="header-content">
+    <div class="logo">
+      <div class="logo-icon">🎤</div>
+      <h1 class="logo-text">[[siteTitle]]</h1>
+    </div>
+    <h1 class="hero-title">Write with AI</h1>
+    <p class="hero-subtitle">
+      Transform your speech into polished, publication-ready content with real-time AI enhancement. 
+      Speak naturally, write professionally.
+    </p>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="navigation">
+  <div class="nav-content">
+    <site-top-menu noink indicator="arrow" arrow-size="8">
+      <site-title slot="prefix" class="spacing"></site-title>
+    </site-top-menu>
+  </div>
+</div>
+
+<!-- How it Works Section -->
+<div class="how-it-works">
+  <div class="how-it-works-content">
+    <h2 class="section-title">How it works</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-icon">🎤</div>
+        <h3 class="step-title">Speak</h3>
+        <p class="step-description">
+          Click the mic and start talking naturally
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-icon">⚡</div>
+        <h3 class="step-title">Process</h3>
+        <p class="step-description">
+          AI enhances your speech with perfect grammar
+        </p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-icon">📝</div>
+        <h3 class="step-title">Export</h3>
+        <p class="step-description">
+          Copy or download your polished content
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Content Container -->
 <div class="container">
-  <h1>Edit this file by going to theme/theme.html</h1>
-  <h2>Edit the css by going to theme/theme.css</h2>
-  <p>You can and should delete these messages and you can do anything
-    you want with this. This stuff is here to be destroyed and replaced.
-    Welcome to theming without javascript. Woot Woot.
-  </p>
-  <p>ALso, you'll notice that if you write things like `[[`siteTitle`]]` and you'll get the site title.
-    You can see it in action here as [[siteTitle]].
-  </p>
   <site-breadcrumb></site-breadcrumb>
+  
   <grid-plate layout="1-3">
     <div slot="col-1" class="left-col">
       <div class="menu-buttons">
-        <site-menu-button type="prev" position="top"></site-menu-button>
-        <site-menu-button type="next" position="top"></site-menu-button>
+        <site-menu-button type="prev" position="top" class="btn btn-secondary"></site-menu-button>
+        <site-menu-button type="next" position="top" class="btn btn-primary"></site-menu-button>
       </div>
       <site-active-title dynamic-methodology="ancestor"></site-active-title>
       <site-children-block dynamic-methodology="ancestor"></site-children-block>
       <div class="buttons">
-        <site-rss-button type="atom"></site-rss-button>
-        <site-rss-button type="rss"></site-rss-button>
-        <site-print-button slot="suffix" type="ancestor"></site-print-button>
+        <site-rss-button type="atom" class="btn btn-secondary"></site-rss-button>
+        <site-rss-button type="rss" class="btn btn-secondary"></site-rss-button>
+        <site-print-button slot="suffix" type="ancestor" class="btn btn-secondary"></site-print-button>
       </div>
     </div>
+    
     <div slot="col-2">
-      <!-- required so HAXeditor can work -->
+      <!-- Required for HAXeditor -->
       <div id="contentcontainer">
         <div id="slot">
           <slot></slot>
         </div>
       </div>
-      <!-- /required so HAXeditor can work -->
+      <!-- /Required for HAXeditor -->
     </div>
   </grid-plate>
 </div>
+
+<!-- Features Section -->
+<div class="features">
+  <div class="features-content">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🎤</div>
+        <h3 class="feature-title">Real-time Speech</h3>
+        <p class="feature-description">
+          Continuous voice recognition with smart command processing. 
+          Just speak naturally and watch your words appear.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✨</div>
+        <h3 class="feature-title">AI Enhancement</h3>
+        <p class="feature-description">
+          Gemini AI polishes your speech in real-time, fixing grammar 
+          and adding structure while preserving your voice.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3 class="feature-title">Privacy First</h3>
+        <p class="feature-description">
+          Your API key stays in your browser. No data collection, 
+          no tracking, just secure client-side processing.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
 <site-footer></site-footer>
+
+<!-- Scroll to top button -->
 <scroll-button position="right" label="Back to top"></scroll-button>
